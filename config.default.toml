@@ -1,0 +1,8 @@
+[influxdb]
+url      = "http://example.com:8086/write?precision=s&db=sensors"
+username = "sensors"
+password = "secret"
+
+[mqtt]
+broker    = "localhost"
+port      = 1883
